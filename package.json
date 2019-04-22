@@ -1,0 +1,27 @@
+{
+  "name": "express-next-redux-secure-boilerplate",
+  "description": "Express & Next JS with Perfect Secure Redux Persist Encrypted",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "next-dev": "next",
+    "next-build": "next build",
+    "next-start": "next start",
+    "express-dev": "node server.js",
+    "express-build": "next build",
+    "express-start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "localforage": "^1.7.3",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-persist-transform-encrypt": "^2.0.1"
+  }
+}
